@@ -1,2 +1,2 @@
-bla bla bla bla bla# OpenClassroomWebDev
+# OpenClassroomWebDev
 Open Classroom Web development projects
