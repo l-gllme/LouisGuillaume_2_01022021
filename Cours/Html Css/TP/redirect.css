@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'comic_reliefregular';
+    src: url('fonts/ComicRelief-webfont.eot');
+    src: url('fonts/ComicRelief-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ComicRelief-webfont.woff2') format('woff2'),
+         url('fonts/ComicRelief-webfont.woff') format('woff'),
+         url('fonts/ComicRelief-webfont.ttf') format('truetype'),
+         url('fonts/ComicRelief-webfont.svg#comic_reliefregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#e{
+	border-bottom: 1px black solid;
+}
+
+.u{
+	margin-top: 15%;
+	text-align: center;
+}
+/*Header*/
+body{
+	font-family: 'comic_reliefregular';
+	background: url(images/fond.PNG) center no-repeat , #322F36;
+}
+#bloc_page{
+	width: 50%;
+	margin: auto;
+}
+h1, h2, h3{
+	font-family: 'Impact';
+	font-weight: normal;
+}
+h1{
+	font-size: 1.9em;
+	color: #322F36;
+	text-shadow: 2px 2px 5px grey; 
+}
+#accueil{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+#logo{
+	width: 338px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+.l{
+	margin-left: 25%;
+	margin-top: 0%;
+	padding-top: 0%;
+	margin-bottom: 5%;
+}
+/*Nav*/
+nav ul{
+	display: flex;
+	list-style-type: none;
+	
+	padding-left: 0%;
+	margin-left: 85%;
+
+}
+nav li{
+
+	margin-right: 20%;
+	font-family: 'impact';
+	font-size: 1.9em;
+}
+nav a{
+
+	color: #322F36;
+	text-decoration: none;
+	text-shadow: 2px 2px 5px grey;
+}
+nav a:hover{
+	color: red;
+	text-decoration: underline;
+}

@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'comic_reliefregular';
+    src: url('fonts/ComicRelief-webfont.eot');
+    src: url('fonts/ComicRelief-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ComicRelief-webfont.woff2') format('woff2'),
+         url('fonts/ComicRelief-webfont.woff') format('woff'),
+         url('fonts/ComicRelief-webfont.ttf') format('truetype'),
+         url('fonts/ComicRelief-webfont.svg#comic_reliefregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Header*/
+body{
+	font-family: 'comic_reliefregular';
+	background: url(images/fond.PNG) bottom no-repeat , #322F36;
+}
+#bloc_page{
+	width: 50%;
+	margin: auto;
+}
+h1, h2, h3{
+	font-family: 'Impact';
+	font-weight: normal;
+}
+h1{
+	font-size: 1.9em;
+	color: #322F36;
+	text-shadow: 2px 2px 5px grey; 
+}
+#accueil{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+#logo{
+	width: 338px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+.l{
+	margin-left: 25%;
+	margin-top: 0%;
+	padding-top: 0%;
+	margin-bottom: 5%;
+}
+/*Nav*/
+nav ul{
+	display: flex;
+	list-style-type: none;
+	
+	padding-left: 0%;
+	margin-left: 85%;
+
+}
+nav li{
+
+	margin-right: 20%;
+	font-family: 'impact';
+	font-size: 1.9em;
+}
+nav a{
+
+	color: #322F36;
+	text-decoration: none;
+	text-shadow: 2px 2px 5px grey;
+}
+nav a:hover{
+	color: red;
+	text-decoration: underline;
+}
+/* Body */
+#border{
+	border : 1px black solid;
+}
+#raclette{
+	margin-left: 1.5%;
+	border : 2px black solid;
+	border-radius: 5px 5px 5px 5px; 
+	box-shadow: 1px 1px 5px black;
+}
+#banniere{
+	margin-left: 0.90%;
+	position: absolute;
+	top: 48.3%;
+	z-index: 1;
+	background-color: rgb(255,224,160,0.7);
+	padding-left: 5%;
+	padding-right: 28.68%;
+	padding-top: 0.3%;
+	padding-bottom: 0.3%;
+	font-family: impact;
+	font-size: 1.3em;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 1px 1px 5px black;
+	color: #322F36; 
+
+}
+#new{
+	color: red;
+}
+#bbb{/*Image*/
+	margin-top: 1.2%;
+	margin-left: 1.5%;
+	border : 2px black solid;
+	border-radius: 5px 5px 5px 5px; 
+	box-shadow: 1px 1px 5px black;
+}
+#bbbt{/*Titre*/
+	position: absolute;
+	top: 58%;
+	left: 30%;
+	color: white;
+	text-decoration: underline;
+	text-shadow: 1px 1px 5px black; 
+}
+#bbbp{/*Paragraphe*/
+	position: absolute;
+	top: 63%;
+	left: 26.7%;
+	width: 17%;
+	color: white;
+	font-family: 'comic sans ms';
+	text-align: justify;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 5px black; 
+}
+.reserveri{
+	flex-wrap: wrap;
+	position: absolute;
+	top:56.75%;
+	left: 59.25%;
+	border : 2px black solid;
+	border-radius: 5px 5px 5px 5px; 
+	box-shadow: 1px 1px 5px black;
+	z-index: 1;
+}
+#reserver{
+	position: absolute;
+	top:57.75%;
+	left: 64.15%;
+	z-index: 2;
+	color: white;
+	text-decoration: underline;
+	text-shadow: 1px 1px 5px black;
+}
+.reserverp{
+	width: 240px;
+	position: absolute;
+	top:62.75%;
+	left: 61.5%;
+	z-index: 2;
+	text-align: left;
+	color: white;
+	font-family: 'comic sans ms';
+	text-align: left;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 5px black;
+}
+.reserverp a{
+	color: #FFE0A0;
+	text-decoration: none;
+	font-family: 'comic sans ms';
+	text-align: center;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 5px black;	
+}
+#retrouver{
+	position: absolute;
+	top:68.75%;
+	left: 62.71%;
+	z-index: 2;
+	color: white;
+	text-decoration: underline;
+	text-shadow: 1px 1px 5px black;
+}
+#adresse{
+	text-decoration: none;
+	position: absolute;
+	top:74.75%;
+	left: 61.71%;
+	z-index: 2;
+	color: #FFE0A0;
+	font-family: 'comic sans ms';
+	text-align: center;
+	font-size: 1.2em;
+	text-shadow: 1px 1px 5px black;	
+}
+#resaux{
+	position: absolute;
+	top:77.75%;
+	left: 63.8%;
+	z-index: 2;
+	color: white;
+	text-decoration: underline;
+	text-shadow: 1px 1px 5px black;
+}
+#iresaux{
+	position: absolute;
+	top: 85%;
+	left: 60.8%;
+	z-index: 2;
+}
