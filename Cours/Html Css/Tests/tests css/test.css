@@ -1,0 +1,74 @@
+body
+{
+	text-shadow: 6px 6px 10px black;
+	background-color: teal;
+	font-family: "Serif";
+	text-align: center;	
+
+
+	/*background-image: url("images/fond.PNG");
+	background-repeat: no repeat; 
+	background-position 30px 50px ou top bottom etc*/
+	
+}
+
+h1
+{
+	border: 3px #6ECE08 dashed; 
+	font-size: 2.3em;
+	text-decoration: underline;
+	color: #6ECE08;
+	text-align: center;
+}
+
+p
+{
+	font-size: 1.8em;
+	color: #ffffff;
+}
+
+.flottante
+{
+	float: left;
+}
+
+.fboth
+{
+	clear: both;
+	text-align: center;
+}
+
+.left
+{
+	text-align: left;
+}
+
+span
+{
+	color: #6ECE08;
+}
+a
+{
+	color: #6ECE08;
+}
+a:hover
+{
+	color: red;
+}
+p:hover
+{
+	text-decoration: underline;
+	color: blue;
+}
+a:active
+{
+	background-color: #FFFFFF;
+}
+a:focus
+{
+	background-color: #FFCC66;
+}
+:/*a:visited
+{
+	color: #AAA;
+}*/
