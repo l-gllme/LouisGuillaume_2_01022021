@@ -1,0 +1,8 @@
+form{
+	font-family: impact;
+	background-color: grey;
+}
+textarea{
+	width: 50%;
+	max-height: 50%;
+}
