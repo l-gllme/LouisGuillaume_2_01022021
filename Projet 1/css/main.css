@@ -1,0 +1,48 @@
+
+/* Taille de la page et style taille etc*/
+
+body{
+	width: 1440px;
+	height: auto;
+	margin: auto; 
+	border: 1px solid grey;
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 0.9em;
+}
+
+#page{
+	margin-right:3.5%;
+	margin-left:3.5%;
+	padding-top:26px; 
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+.fas{
+}
+h1, h2{
+	font-size: 1.2em;
+}
+h3{
+	font-size: 1em;
+}
+.fas{
+	color: #0065FC;
+}
+
+/* Page 2 */
+
+#page2{
+	margin-top: 300px;
+	text-align: center;
+	margin-bottom: 300px;
+}
+.box{
+	background-color: white;
+}
+h6{
+	color: white;
+}

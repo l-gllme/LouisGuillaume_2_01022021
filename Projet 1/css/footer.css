@@ -1,0 +1,11 @@
+
+/* A propos etc */
+footer{
+	background-color: #F2F2F2;
+	display: flex;
+	justify-content: space-around;
+	padding-right: 25%;
+}
+.center{
+	margin: auto;
+}

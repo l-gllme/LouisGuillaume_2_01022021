@@ -1,0 +1,31 @@
+
+/* Logo et Nav */
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+nav ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	width: 485px;
+}
+nav a{
+	border-top: 2px solid rgb(0,0,0,0);
+	padding-top: 40px;
+	padding-right: 39px;
+	padding-left: 39px;
+}
+nav a:hover{
+	border-top: 2px solid #0065FC;
+	color: #0065FC;
+}
+#constant{
+	color: #0065FC;
+	border-top: 2px solid #0065FC;
+}
+li strong{
+	color: #0065FC;
+	font-weight: bold;
+}
