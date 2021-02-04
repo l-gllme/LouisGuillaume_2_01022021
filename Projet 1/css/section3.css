@@ -1,0 +1,20 @@
+
+/* Activites a Marseille */
+#margetop{
+	margin-top: 53px;
+	margin-bottom: 53px;
+}
+.marge44{
+	margin-left: 44px;
+}
+#activites{
+	display: flex;
+	justify-content: space-between;
+}
+.duo{
+	display: flex;
+	flex-direction: column;
+}
+.trio{
+	display: flex;
+}

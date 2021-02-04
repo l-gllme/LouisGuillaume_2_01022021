@@ -1,0 +1,50 @@
+
+/* ----Hebergements plus les plus populaires---- */
+
+
+#mid{
+	display: flex;
+	justify-content: space-between;
+}
+#hebergements{
+	width: 884px;
+	background-color: #F2F2F2;
+	border-radius: 4%;
+}
+
+#Vhebergement{ /*Images et etoiles */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.marge40{
+	margin: 40px;
+}
+.grey{
+	color: #F2F2F2;
+}
+/* --Les plus populaires-- */
+
+aside{
+	width: 420px;
+	background-color: #F2F2F2;
+	border-radius: 4%;
+}
+#toppopu{
+
+	justify-content: space-between;
+	align-items:center;
+ 
+}
+.boxpopu{
+	display: flex;
+}
+#popucollum{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 493px;
+}
+.fa-chart-line{
+	color: black;
+}
