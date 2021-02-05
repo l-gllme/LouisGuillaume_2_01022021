@@ -49,19 +49,38 @@ input[type=submit]{
 
 /* Filtres */
 
+.faf{
+	font-size: 1.35em;
+	margin: auto;
+}
+.logofiltre{
+	display: flex;
+	align-items: center;
+	margin-right: 12px;
+	border-radius: 50%;
+	background-color: #DEEBFF;
+	height: 49px;
+	width: 47px;
+}
 #filtres{
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	height: 50px;
-	border: 1px solid grey;
+	height: 51px;
 }
 .filtre{
 	display: flex;
 	align-items: center;
-	border: 1px solid grey;
+	border: 2px solid #F2F2F2;
+	border-left: none;
+	border-radius: 3em;
 	margin-left:25px; 
+	padding-right: 23px;
+	height: 47.3px;
+}
+.filtre:hover{
+	border-color: #DEEBFF;
 }
 
 /* Info */
@@ -69,11 +88,20 @@ input[type=submit]{
 	display: flex;
 	align-items: center;
 	height: 24px;
-	margin-bottom: 15px; 
+	margin-bottom: 30px; 
 }
-.fa-info{
-	padding: 12px;
+#infologo{
+	display: flex;
+	align-items: center;
+	width: 24px;
+	height: 24px;
 	border:solid 1px #F2F2F2;
 	border-radius: 50%;
-
+}
+.fa-info{
+	margin: auto;
+	text-align: center;
+}
+#pinfo{
+	margin-left: 10px;
 }
