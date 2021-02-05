@@ -8,8 +8,9 @@
 }
 #hebergements{
 	width: 884px;
+	height: 627px;
 	background-color: #F2F2F2;
-	border-radius: 4%;
+	border-radius: 1.5em;
 }
 
 #Vhebergement{ /*Images et etoiles */
@@ -23,28 +24,75 @@
 .grey{
 	color: #F2F2F2;
 }
+.photoheberg{
+	border-radius: 1em 1em 0 0;
+	margin: 5px;
+	margin-bottom: 0;
+}
+.boxheberg{
+	background-color: white;
+	border-radius: 1em;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	height: 200px;
+}
+.textboxheberg{
+	margin-top: -8px;
+	margin-left: 19px;
+}
+#mid p{
+	margin-top: -10px;
+	margin-bottom: 5px;
+}
+.boxheberg .fas{
+	font-size: 0.8em;
+}
+.h3heberg{
+	font-size: 1.05em;
+}
 /* --Les plus populaires-- */
 
 aside{
 	width: 420px;
 	background-color: #F2F2F2;
-	border-radius: 4%;
+	border-radius: 1.2em;
 }
 #toppopu{
-
+	display: flex;
 	justify-content: space-between;
 	align-items:center;
- 
+ 	margin-top: -5%;
+ 	margin-bottom: 5%;
 }
 .boxpopu{
 	display: flex;
+	border-radius: 1em;
+	padding-right: 50px;
 }
 #popucollum{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 493px;
+	height: 491px;
 }
 .fa-chart-line{
 	color: black;
+	font-size: 1.2em;
+	margin-right: 5px;
 }
+.photopopulaire{
+	margin: 5px;
+	margin-right: 22px;
+	border-radius: 1em 0 0 1em;
+}
+aside .fa-star{
+	font-size: 0.8em;
+}
+.etoile2{
+	margin-top: 45px;
+}
+.etoile1{
+	margin-top: 30px;
+}
+
+
