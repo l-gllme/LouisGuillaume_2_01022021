@@ -9,3 +9,13 @@ footer{
 .center{
 	margin: auto;
 }
+@media all and (max-device-width: 425px){
+	footer{
+		flex-direction: column;
+	}
+	.center{
+		margin: 0;
+		margin-left: 20px;
+		padding-right: 0;
+	}
+}

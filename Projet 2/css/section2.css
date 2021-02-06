@@ -96,3 +96,37 @@ aside .fa-star{
 }
 
 
+@media all and (max-device-width: 425px){
+
+	#mid{
+	flex-direction: column-reverse;
+	}
+	#hebergements{
+	width: auto;
+	height: auto;
+	background-color: white;
+	border-radius: 0;
+	}
+	.marge40{
+		margin: 0px;
+	}
+	.photoheberg{
+		width: 325px;
+		height: 114px;
+	}
+	.boxheberg{
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	aside{
+		width: 375px;
+		margin-left: -20px;
+		border-radius: 0;
+	}
+	.marge20{
+	}
+}
+
+
+
