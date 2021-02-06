@@ -49,4 +49,10 @@
 	}
 	#activites .box{
 	}
+	.marge10{
+		margin-bottom: 0;
+	}
+	#activites .box{
+		margin-bottom: 20px;
+	}
 }

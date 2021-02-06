@@ -17,10 +17,10 @@ nav a{
 	padding-right: 39px;
 	padding-left: 39px;
 }
-nav a:hover{
+/*nav a:hover{
 	border-top: 2px solid #0065FC;
 	color: #0065FC;
-}
+}*/
 #constant{
 	color: #0065FC;
 	border-top: 2px solid #0065FC;
@@ -48,4 +48,27 @@ header strong{
 	header{
 		display: contents;
 	}
+	nav ul{
+		width: auto;
+		justify-content: space-between;
+		padding: 0;
+
+	}
+	nav li{
+		width: 187px;
+		text-align: center;	
+		border-bottom: 2px #F2F2F2 solid;
+		padding-bottom: 18px;
+		margin-right: -20px;
+		margin-left: -20px;	
+	}
+	nav a{
+		border: none;
+		padding: 0;
+	}
+	#constant{
+	color: #0065FC;
+	border-top: none;
+	border-bottom: 2px solid #0065FC;
+}
 }
