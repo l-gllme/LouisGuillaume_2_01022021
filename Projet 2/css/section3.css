@@ -25,9 +25,28 @@
 	margin-left: 25px;
 }
 #activites .box{
-		border-radius: 1em;
-		padding-bottom: 2px;
+	border-radius: 1em;
+	padding-bottom: 2px;
 }
 .marge10{
 	margin-bottom: 12px;
+}
+
+@media all and (max-device-width: 425px){
+	.photoactivites{
+		width: 335px;
+		height: 134px;
+	}
+	.duo ,.trio{
+		display: contents;
+	}
+	#activites{
+		display: flex;
+		flex-direction: column;
+	}
+	.marge44{
+		margin-left: 0;
+	}
+	#activites .box{
+	}
 }

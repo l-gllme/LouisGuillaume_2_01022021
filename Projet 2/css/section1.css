@@ -4,7 +4,6 @@
 .titre{
 	margin-top: -10px;	
 }
-
 /*Barre de recherche */
 
 #formulaire{
@@ -24,8 +23,11 @@ input[type=search]{
 	border: 1px solid #F2F2F2; 
 	padding-left: 1em;
 }
+#placeholder::placeholder{
+	font-weight: bold;
+	color: black;
+}
 input[type=submit]{
-	border: 1px solid #0065FC;
 	background-color: #0065FC;
 	color: white;
 	padding-left: 1em;
@@ -105,3 +107,32 @@ input[type=submit]{
 #pinfo{
 	margin-left: 10px;
 }
+@media screen and (max-width: 425px){
+	#formulaire .smartphone{
+		width: 50px;
+		margin-left: -15px;
+		display: flex;
+		justify-content: center;
+		background-color: #0065FC;
+		border-radius: 35%;
+}
+	.fa-search{
+		width: 3em;
+		font-size: 1.1em;
+		background-color: #0065FC;
+		color: white;
+		margin: auto;
+		text-align: center;
+	}
+	input[type=search]{
+		padding-right: 65px;
+	}
+
+}
+
+
+
+
+
+
+

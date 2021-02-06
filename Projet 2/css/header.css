@@ -25,7 +25,27 @@ nav a:hover{
 	color: #0065FC;
 	border-top: 2px solid #0065FC;
 }
-li strong{
+header strong{
 	color: #0065FC;
 	font-weight: bold;
+}
+.smartphone{
+	display: none;
+}
+
+@media screen and (max-width: 425px){
+	.laptop{
+		display: none;
+	}
+	.smartphone{
+		display: contents;
+	}
+	#top{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	header{
+		display: contents;
+	}
 }
