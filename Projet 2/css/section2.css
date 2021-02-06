@@ -120,11 +120,36 @@ aside .fa-star{
 		margin-bottom: 10px;
 	}
 	aside{
-		width: 375px;
+		width: auto;
 		margin-left: -20px;
+		margin-right: -20px;
 		border-radius: 0;
+		padding: 20px;
 	}
 	.marge20{
+	}
+	#popucollum{
+		height: auto;
+	}
+	.boxpopu{
+		padding-right: 0px;
+		width: 332px;
+		margin-bottom: 13px;
+	}
+	.reduit{
+		padding-right: 40px;
+	}
+	.fa-chart-line{
+		margin-right: 8px;
+	}
+	#toppopu{
+		margin-top: 10px;
+	}
+	.h2heberg{
+		margin-top: 38px;
+	}
+	.etoile1{
+		margin-top: 45px;
 	}
 }
 

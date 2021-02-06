@@ -12,6 +12,9 @@ footer{
 @media all and (max-device-width: 425px){
 	footer{
 		flex-direction: column;
+		padding-top: 29px;
+		padding-bottom: 29px;
+		margin-top: -20px;
 	}
 	.center{
 		margin: 0;

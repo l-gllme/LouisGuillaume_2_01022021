@@ -114,7 +114,7 @@ input[type=submit]{
 		display: flex;
 		justify-content: center;
 		background-color: #0065FC;
-		border-radius: 35%;
+		border-radius: 30%;
 }
 	.fa-search{
 		width: 3em;
@@ -126,6 +126,28 @@ input[type=submit]{
 	}
 	input[type=search]{
 		padding-right: 65px;
+	}
+	.large{
+		width: 100%;
+	}
+	#filtres{
+		display: flex;
+		height: auto;
+	}
+	.filtre{
+		margin: 0;
+		margin-bottom: 10px;
+		border-color: #d9d9d9;
+	}
+	#pinfo{
+		margin-top: 30px;
+	}
+	#infologo{
+		width: 30px;
+	}
+	#info{
+		margin-top: -15px;
+		margin-bottom: 40px;
 	}
 
 }
