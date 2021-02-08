@@ -1,5 +1,8 @@
 
 /* Activites a Marseille */
+.petit{
+	display: none;
+}
 #margetop{
 	margin-top: 53px;
 }
@@ -54,5 +57,11 @@
 	}
 	#activites .box{
 		margin-bottom: 20px;
+	}
+	.grand{
+		display: none;
+	}
+	.petit{
+		display:flex;
 	}
 }
