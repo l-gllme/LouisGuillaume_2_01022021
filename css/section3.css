@@ -35,7 +35,17 @@
 	margin-bottom: 12px;
 }
 
-@media all and (max-device-width: 425px){
+@media all and (min-width: 426px) and (max-width: 768px){
+
+	#activites{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#activites .box{
+		margin-bottom: 20px;
+	}
+}
+@media all and (max-width: 425px){
 	.photoactivites{
 		width: 335px;
 		height: 134px;
@@ -49,8 +59,6 @@
 	}
 	.marge44{
 		margin-left: 0;
-	}
-	#activites .box{
 	}
 	.marge10{
 		margin-bottom: 0;

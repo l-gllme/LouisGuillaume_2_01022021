@@ -22,6 +22,7 @@ input{
 input[type=search]{
 	border: 1px solid #F2F2F2; 
 	padding-left: 1em;
+	color: black;
 }
 #placeholder::placeholder{
 	font-weight: bold;
@@ -107,6 +108,19 @@ input[type=submit]{
 #pinfo{
 	margin-left: 10px;
 }
+	@media all and (min-width: 426px) and (max-width: 768px){
+
+		#info{
+			height: auto;
+		}
+		#filtres{
+		height: auto;
+	}
+	.margetablet{
+		margin-left: 45px;
+		margin-top: 10px;
+	}
+	}
 @media screen and (max-width: 425px){
 	#formulaire .smartphone{
 		width: 50px;
@@ -149,8 +163,12 @@ input[type=submit]{
 		margin-top: -15px;
 		margin-bottom: 40px;
 	}
+	.margeensmartphone{
+		margin-left: 12px;
+	}
 
 }
+
 
 
 

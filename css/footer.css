@@ -9,6 +9,17 @@ footer{
 .center{
 	margin: auto;
 }
+
+@media all and (min-width: 426px) and (max-width: 768px){
+
+	footer{
+		height: 170px;
+		justify-content: space-between;
+		padding-right: 0;
+		}
+
+}
+
 @media all and (max-device-width: 425px){
 	footer{
 		flex-direction: column;
