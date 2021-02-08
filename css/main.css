@@ -47,6 +47,18 @@ h6{
 	color: white;
 }
 
+@media all and (min-width: 426px) and (max-width: 768px){
+
+	body{
+		width: 768px;
+		font-size: 0.9em;
+	}
+	#page{
+		margin-right: 40px;
+		margin-left: 40px;
+	}
+
+}
 
 @media screen and (max-width: 425px){
 

@@ -1,0 +1,127 @@
+
+/* Logo et Nav */
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+nav ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	width: 485px;
+}
+nav a{
+	border-top: 2px solid rgb(0,0,0,0);
+	padding-top: 40px;
+	padding-right: 39px;
+	padding-left: 39px;
+}
+/*nav a:hover{
+	border-top: 2px solid #0065FC;
+	color: #0065FC;
+	}*/
+	.constant{
+		color: #0065FC;
+		border-top: 2px solid #0065FC;
+	}
+	header strong{
+		color: #0065FC;
+		font-weight: bold;
+	}
+	.smartphone{
+		display: none;
+	}
+	@media all and (min-width: 426px) and (max-width: 768px){
+
+		.laptop{
+			display: none;
+		}
+		.smartphone{
+			display: contents;
+		}
+		.notablet{
+			display: none;
+		}
+		.tablet{
+			display: flex;
+		}
+		#top{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		header{
+			display: contents;
+		}
+		nav ul{
+			width: auto;
+			justify-content: space-between;
+			padding: 0;
+
+		}
+		nav li{
+			width: 700px;
+			text-align: center;	
+			border-bottom: 2px #F2F2F2 solid;
+			padding-bottom: 18px;
+			margin-right: -3.5%;
+			margin-left: -3.5%;	
+		}
+		nav a{
+			border: none;
+			padding: 0;
+		}
+		.constant{
+			color: #0065FC;
+			border-top: none;
+			border-bottom: 2px solid #0065FC;
+		}
+		h1{
+			margin-top: 35px;
+		}
+		.titre{
+			margin-bottom: 35px;
+		}
+	}
+		@media screen and (max-width: 425px){
+			.laptop{
+				display: none;
+			}
+			.smartphone{
+				display: contents;
+			}
+			#top{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			header{
+				display: contents;
+			}
+			nav ul{
+				width: auto;
+				justify-content: space-between;
+				padding: 0;
+
+			}
+			nav li{
+				width: 187px;
+				text-align: center;	
+				border-bottom: 2px #F2F2F2 solid;
+				padding-bottom: 18px;
+				margin-right: -20px;
+				margin-left: -20px;	
+			}
+			nav a{
+				border: none;
+				padding: 0;
+			}
+			.constant{
+				color: #0065FC;
+				border-top: none;
+				border-bottom: 2px solid #0065FC;
+			}
+		}
+
+

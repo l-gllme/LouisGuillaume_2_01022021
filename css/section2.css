@@ -61,8 +61,8 @@ aside{
 	display: flex;
 	justify-content: space-between;
 	align-items:center;
- 	margin-top: -5%;
- 	margin-bottom: 5%;
+	margin-top: -5%;
+	margin-bottom: 5%;
 }
 .boxpopu{
 	display: flex;
@@ -94,18 +94,42 @@ aside .fa-star{
 .etoile1{
 	margin-top: 30px;
 }
-
-
-@media all and (max-device-width: 425px){
+@media all and (min-width: 426px) and (max-width: 768px){
 
 	#mid{
-	flex-direction: column-reverse;
+		flex-direction: column;
 	}
 	#hebergements{
-	width: auto;
-	height: auto;
-	background-color: white;
-	border-radius: 0;
+		width: auto;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.marge40{
+		margin:70px;
+	}
+	.h2heberg{
+		margin-top: -30px;
+		margin-bottom: 25px;
+	}
+	.h3heberg{
+		margin-bottom: -30px;
+	}
+	aside{
+		width: auto;
+	}
+}
+
+
+@media all and (max-width: 425px){
+
+	#mid{
+		flex-direction: column-reverse;
+	}
+	#hebergements{
+		width: auto;
+		height: auto;
+		background-color: white;
+		border-radius: 0;
 	}
 	.marge40{
 		margin: 0px;
