@@ -1,0 +1,481 @@
+
+/* ------------------------------------ Section 1---------------------------------------------------*/
+
+/*Barre de recherche */
+.titre{
+	margin-top: -10px;	
+}
+#formulaire{
+	display: flex;
+	height: 53px;
+	margin-bottom: 10px; 
+}
+input{
+	font-size: 1.1em;
+	border: none;
+	background: none;
+	outline: none;
+	font-weight:bolder;
+	font-family: 'Raleway', 'sans-serif';
+}
+input[type=search]{
+	border: 1px solid #F2F2F2; 
+	padding-left: 1em;
+	color: black;
+}
+#placeholder::placeholder{
+	font-weight: bold;
+	color: black;
+}
+input[type=submit]{
+	background-color: #0065FC;
+	color: white;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-radius: 0 1em 1em 0;
+}
+#location{
+	display: flex;
+	justify-content: center;
+	background-color: #F2F2F2;
+	border-radius: 27% 0 0 27%;
+}
+.fa-map-marker-alt{
+	width: 3em;
+	font-size: 1.1em;
+	background-color: #F2F2F2;
+	color: black;
+	margin: auto;
+	text-align: center;
+}
+
+/* Filtres*/ 
+
+.faf{
+	font-size: 1.35em;
+	margin: auto;
+}
+.logofiltre{
+	display: flex;
+	align-items: center;
+	margin-right: 12px;
+	border-radius: 50%;
+	background-color: #DEEBFF;
+	height: 49px;
+	width: 47px;
+}
+#filtres{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	height: auto;
+}
+.filtre{
+	display: flex;
+	align-items: center;
+	border: 2px solid #F2F2F2;
+	border-left: none;
+	border-radius: 3em;
+	margin-left:25px; 
+	padding-right: 23px;
+	height: 47.3px;
+}
+.filtre:hover{
+	border-color: #DEEBFF;
+}
+
+/* I info*/
+
+#info{
+	display: flex;
+	align-items: center;
+	height: auto;
+	margin-bottom: 30px; 
+}
+#infologo{
+	display: flex;
+	align-items: center;
+	width: 24px;
+	height: 24px;
+	border:solid 1px #F2F2F2;
+	border-radius: 50%;
+}
+.fa-info{
+	margin: auto;
+	text-align: center;
+}
+#pinfo{
+	margin-left: 10px;
+}
+
+/* ------------------------------------ Section 2---------------------------------------------------*/
+
+#mid{
+	display: flex;
+	justify-content: space-between;
+}
+#mid p{
+	margin-top: -10px;
+	margin-bottom: 5px;
+}
+.grey{
+	color: #F2F2F2;
+}
+
+/* -----------------Hebergements---------------*/
+
+#hebergements{
+	width: 66%;
+	height: auto;
+	background-color: #F2F2F2;
+	border-radius: 1.5em;
+}
+.triplehebergement{
+	display: flex;
+	justify-content: space-between;
+}
+.marge40{
+	margin: 2.5em;
+}
+.photoheberg{
+	width: 95%;
+	border-radius: 1em 1em 0 0;
+	margin: 5px;
+	margin-bottom: 0;
+}
+.boxheberg{
+	width: 100%;
+	background-color: white;
+	border-radius: 1em;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	padding-bottom: 1em;
+	height: auto;
+}
+.textboxheberg{
+	width: 100%;
+	margin-top: -8px;
+	margin-left: 19px;
+}
+.boxheberg .fas{
+	font-size: 0.8em;
+}
+.h3heberg{
+	font-size: 1.05em;
+}
+
+
+/*--------------Les plus populaires------------*/
+
+aside{
+	height: auto;
+	width: 31%;
+	background-color: #F2F2F2;
+	border-radius: 1.2em;
+}
+#titrepopu{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	margin-top: -5%;
+	margin-bottom: 5%;
+	width: 100%;
+}
+.fa-chart-line{
+	color: black;
+	font-size: 1.2em;
+	margin-right: 1em;
+}
+.boxpopu{
+	width: 85%;
+	display: flex;
+	border-radius: 1em;
+	padding-right: 50px;
+}
+#popucollum{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 33em;
+}
+.photopopulaire{
+	margin: 5px;
+	margin-right: 22px;
+	border-radius: 1em 0 0 1em;
+}
+.reduit{
+	width: 100%;
+}
+aside .fa-star{
+	font-size: 0.8em;
+}
+.etoile2{
+	margin-top: 45px;
+}
+.etoile1{
+	margin-top: 30px;
+}
+
+/* ------------------------------------ Section 3 ---------------------------------------------------*/
+
+#activites{
+	display: flex;
+	margin-bottom: 70px;
+}
+.duo{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.trio{
+	display: flex;
+
+}
+.photoactivites{
+	width: 100%;
+	border-radius: 1em 1em 0 0;
+}
+#activites h3{
+	margin-left: 25px;
+	width: 100%;
+}
+#activites .box{
+	border-radius: 1em;
+	padding-bottom: 2px;
+}
+.marge10{
+	margin-bottom: 16px;
+}
+#margetop{
+	margin-top: 53px;
+}
+.marge44{
+	margin-left: 44px;
+}
+#activites .box{
+	width: auto;
+}
+.margeactivitecalanques{
+	margin-left:44px;
+}
+
+/* ------------------------------------ @media 1276 - 768 ---------------------------------------------------*/
+
+
+@media screen and (max-width: 1276px){
+
+	#mid{
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* -----------------Hebergements---------------*/
+
+	#hebergements{
+		width: 100%;
+		height: auto;
+	}
+	.triplehebergement{ 
+		display: flex;
+		justify-content: space-around;
+	}
+	.photoheberg{
+		width: 95%;
+	}
+	.boxheberg{
+		width: 100%;
+	}
+	.textboxheberg{
+		width: 100%;
+	}
+
+	/*--------------Les plus populaires------------*/
+
+	aside{
+		margin-right: 21%;
+		margin-left: 21%;
+		margin-top: 2em;
+		width: 58%;
+		height: auto;
+	}
+	#popucollum{
+		width: auto;
+		flex-direction: column;
+	}
+	/* ---------- Activités --------*/
+
+	#activites{
+		justify-content: space-around;
+	}
+	.trio{
+		display:block;
+	}
+	.grand{
+		display: none;
+	}
+	.petit{
+		display:flex;
+		width: 100%;
+	}
+	.marge44{
+		margin-left: 0;
+	}
+	.margeactivitecalanques{
+		margin-left:0px;
+	}
+	.boxgrand{
+	}
+
+}
+
+/* ------------------------------------ @media 768 425 ---------------------------------------------------*/
+
+@media screen and (max-width: 768px){
+
+	/*Section1*/
+
+	#formulaire{
+		margin-top: 2em;
+	}
+
+	/*Section 2*/
+
+	#mid{
+		flex-direction: column;
+	}
+
+	/* -----------------Hebergements---------------*/
+
+	.triplehebergement{ 
+		flex-direction: column;
+	}
+	#flexhebergpetit{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	/*--------------Les plus populaires------------*/
+
+	aside{
+		margin: 0;
+		margin-top: 2em;
+		width: 100%;
+		height: auto;
+	}
+	#popucollum{
+		width: auto;
+		flex-direction: column;
+	}
+	.boxpopu{
+		width: 100%;
+		padding-right: 0;
+	}
+
+	/* ---------- Activités --------*/
+
+	#activites{
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}
+
+/* ------------------------------------ @media  425 ---------------------------------------------------*/
+
+@media screen and (max-width: 425px){
+
+	body{
+		max-width: 425px;
+	}
+	/*Formulaire*/
+
+	.laptop{
+		display: none;
+	}
+	#formulaire .smartphone{
+		width: 50px;
+		margin-left: -15px;
+		display: flex;
+		justify-content: center;
+		background-color: #0065FC;
+		border-radius: 30%;
+	}
+
+	.fa-search{
+		width: 3em;
+		font-size: 1.1em;
+		background-color: #0065FC;
+		color: white;
+		margin: auto;
+		text-align: center;
+	}
+
+	/* Filtres */
+
+	.large{
+		width: 100%;
+	}
+	.filtre{
+		margin-bottom: 0.5em;
+	}
+
+	/*section 2*/
+
+	#mid{
+		flex-direction: column-reverse;
+	}
+
+	/*Les plus populaires*/
+
+	aside{
+		border-radius: 0;
+		margin-left: -3.5%;
+		padding-left: 3.5%;
+		padding-right: 3.5%;
+		padding-bottom: 10%;
+
+	}
+
+	/*hebergement*/
+
+	#hebergements{
+		background-color: white;
+	}
+	.marge40{
+		margin: 0;
+		margin-top: 40px;
+	}
+	#flexhebergpetit{
+		display: block;
+	}
+	.photoheberg {
+    width: 97%;
+    max-height: 114px;
+	}
+
+
+	/* activites */
+
+	#activites{
+		display: block;
+		margin: 0;
+		margin-bottom: 2.5em; 
+	}
+	#activites .box{
+		margin: 0;
+		margin-top: 1.5em;
+	}
+	.duo{
+		display: block;
+	}
+	.trio{
+		display: block;
+	}
+	#margetop{
+		margin-bottom: 2.5em;
+	}
+	.photoactivites{
+		max-height: 134px;
+	}
+}

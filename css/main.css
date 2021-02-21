@@ -1,27 +1,19 @@
-
-/* Taille de la page et style taille etc*/
-
 body{
-	width: 1440px;
+	max-width: 1440px;
+	width: 100%;
 	height: auto;
 	margin: auto; 
 	font-family: 'Raleway', 'sans-serif';
 	font-size: 0.9em;
 }
-
 #page{
 	margin-right:3.5%;
 	margin-left:3.5%;
-	padding-top:26px; 
+}
+#page2{
+	height: 300px;
 }
 
-a{
-	color: black;
-	text-decoration: none;
-}
-
-.fas{
-}
 h1, h2{
 	font-size: 1.2em;
 }
@@ -31,43 +23,17 @@ h3{
 .fas{
 	color: #0065FC;
 }
-
-/* Page 2 */
-
-#page2{
-	margin-top: 300px;
-	text-align: center;
-	margin-bottom: 300px;
+a{
+	color: black;
+	text-decoration: none;
+}
+.smartphone{
+	display: none;
+}
+.petit{
+	display: none;
 }
 .box{
 	background-color: white;
-	box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.25);
-}
-h6{
-	color: white;
-}
-
-@media all and (min-width: 426px) and (max-width: 768px){
-
-	body{
-		width: 768px;
-		font-size: 0.9em;
-	}
-	#page{
-		margin-right: 40px;
-		margin-left: 40px;
-	}
-
-}
-
-@media screen and (max-width: 425px){
-
-	body{
-		width: 375px;
-		font-size: 0.9em;
-	}
-	#page{
-		margin-right: 20px;
-		margin-left: 20px;
-	}
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.15);
 }

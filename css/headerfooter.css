@@ -1,0 +1,101 @@
+
+/* ------------------------------------ Header ---------------------------------------------------*/
+
+header img{
+	margin-top: 1em;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	width: auto;
+}
+nav li{
+	width: 12em;
+	text-align: center;
+	padding-top: 2em;
+	margin-right: -0.2em;
+	margin-left: -0.2em;
+}
+.constant{
+	border-top: 2px solid #0065FC; 
+}
+.navblue{
+	color: #0065FC;
+}
+
+
+
+/* ------------------------------------ Footer ---------------------------------------------------*/
+
+footer{
+	height: auto;
+	background-color: #F2F2F2;
+	display: flex;
+	justify-content: space-around;
+	padding-right: 25%;
+}
+.center{
+	margin: auto;
+}
+
+
+
+/* ------------------------------------ @media 768 ---------------------------------------------------*/
+
+@media screen and (max-width: 768px){
+	header{
+		display: block;
+		margin-bottom: 2em;
+	}
+	nav ul{
+		margin: 0;
+		padding: 0;
+		justify-content: flex-start;
+		width: auto;
+
+	}
+	nav li{
+		margin: 0;
+	}
+	.constant{
+		border: none;
+	}
+	.element:nth-child(1){
+		width: 50%;
+		padding-bottom: 1.5em;
+		border-bottom: solid 2px #0065FC; 
+	}
+	.element:nth-child(2){
+		width: 50%;
+		padding-bottom: 1.5em;
+		border-bottom: solid 2px #F2F2F2;
+	}
+	.element:nth-child(3){
+		position: absolute;
+		top: 0.5em;
+		right: 0.5em;
+	}
+}
+
+/* ------------------------------------ @Media 425px------------------------------------------------*/
+
+
+@media screen and (max-width: 425px){
+
+	footer{
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		display: block;
+	}
+	.center{
+		margin: 0;
+		margin-left: 3em;
+		margin-top: 2em;
+	}
+}
